@@ -6,10 +6,36 @@
     overflow: hidden;
     text-align: center;
 }
+.heading{
+    border-bottom: #e8491d 3px solid;
+}
+
+nav{
+    display: flex;
+}
+nav ul{
+    float: left;
+}
+nav ul li{
+    float: left;
+    padding: 5px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: #021d68;
+    border-bottom: 1px solid #35424a;
+
+}
+
 header{
     min-height: 70px;
     padding: 30px;
-    border-bottom: #e8491d 3px solid;
 
 }
 header h1{
@@ -85,9 +111,9 @@ header nav{
 .box{
     background-color:#f4f4f4;
 }
-#boxes.image-size{
-    width: 30%;
-    height: 30%px;
+.image-size{
+    width: 50%;
+    height: 50%;
 }
 input [type=Email]{
     height: 25px;
