@@ -1,0 +1,96 @@
+.container{
+    background-color: #f4f4f4;
+    margin:auto;
+    align-content: center;
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+}
+header{
+    min-height: 70px;
+    padding: 30px;
+    border-bottom: #e8491d 3px solid;
+
+}
+header h1{
+    margin-top: 10px;
+    padding-top: 10px;
+    color: #35424a;
+    color: #f4f4f4;
+}
+header nav{
+    float: center;
+    width: 30%;
+    
+
+    
+}
+header.container{
+    border-bottom:brown 2px solid;
+}
+header h1{
+    text-align: center;
+    color: #f4f4f4;
+}
+
+    .container #branding{ 
+        color: #fff;
+        background-color: #35424a;
+    }
+    #branding ul{
+        color: #fff;
+    }
+    header a{
+        color:#0c088c;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        inline-size: 5px;
+    }
+    #showcase h1{
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+
+
+        button{
+            border-radius: 5px;
+            color: #fff;
+            background-color: rgb(149, 109, 167);
+            border: none;
+            padding:5px;
+            padding-bottom: 5px;
+            margin:16px;
+            width: 150px;
+            height: 20px;       
+        }
+        form{
+            float: left;
+        }
+h2{ margin-bottom: 10px;
+    color: #35424a;
+    text-align: center;
+}
+header nav{
+    float: right;
+}
+        
+        
+
+#boxes{
+    background-color:#f4f4f4;
+}
+
+.box{
+    background-color:#f4f4f4;
+}
+#boxes.image-size{
+    width: 30%;
+    height: 30%px;
+}
+input [type=Email]{
+    height: 25px;
+    width: 250px;
+}
+
